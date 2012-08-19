@@ -1,0 +1,160 @@
+
+#gbb-admin {
+	width: 920px;
+	padding-bottom: 60px;
+	padding-left: 20px;
+}
+
+#gbb-admin h1 {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.header {
+	margin: 20px 0 20px 0;
+	background: none;
+	padding: 0;
+}
+
+.header .title h1{
+	float: left;
+	margin: 15px 0 0px 20px;
+}
+
+.header .logo {
+	float: right;
+}
+
+.header .logo a {
+	float: left;
+	text-indent: -9999em;
+	display: block;
+	width: 269px;
+	height: 43px;
+	margin: 0px 15px 0 0;	
+	background: url(../images/gbb.png) no-repeat 0 0;
+	border-style: none;
+}
+
+.upgrade {
+	padding: 20px;
+	background: #edfba0;
+	border: 1px solid #d9ec70;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.upgrade h3 {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.upgrade p {
+	font-size: 15px;
+	margin: 15px 0 0 0;
+}
+
+#body .reset-button {
+	float: right;
+}
+
+#body .saveall-button {
+	float: left;
+}
+
+#body .submit input {
+	font-size: 1.1em !important;
+}
+
+#body .submit input.reset {
+	font-size: .9em !important;
+}
+
+.options .submit {
+	padding: 0;
+}
+
+.options h3 {
+	margin: 15px 0 0 0;
+	padding: 15px 15px 15px 40px;
+	font-size: 1.2em;
+	color: #4e4c41;
+	background: #f1f1f1 url(../images/toggle.png) no-repeat 10px 13px;
+	border: 1px solid #e6e6e6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	cursor: pointer;
+}
+
+.options h3.open {
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	background-position: 10px -27px;
+}
+
+.options h3 span {
+	font-size: .9em;
+	font-weight: normal;
+	float: right;
+	color: #5C940F;
+}
+
+.options-body {
+	margin: 0;
+	padding: 5px 40px 5px 40px;
+	background: #fbfbfa;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+.option {
+	margin: 30px 0;
+}
+
+.option-body {
+	float: right;
+	width: 380px;
+	padding: 15px;
+	background: #f1f1f1;
+	color: #777;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.option.text label, .option.select label, .option.textarea label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.option.text input {
+	width: 400px;
+	padding: 5px;
+}
+
+.option.textarea textarea {
+	width: 400px;
+	padding: 5px;
+	height: 100px;
+}
+
+.updated, .error {
+	margin: 5px 15px 2px 0;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear {
+	zoom: 1;
+}
